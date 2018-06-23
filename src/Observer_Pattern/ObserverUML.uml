@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="628.25" y="326.0">Observer_Pattern.Captain</node>
+    <node x="374.9958333333333" y="0.0">Observer_Pattern.Observer</node>
+    <node x="0.0" y="326.0">Observer_Pattern.FakeBook</node>
+    <node x="559.825" y="513.0">Observer_Pattern.Demo</node>
+    <node x="326.0" y="338.0">Observer_Pattern.Student</node>
+    <node x="439.25" y="149.0">Observer_Pattern.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Observer_Pattern.Demo" target="Observer_Pattern.Student">
+      <point x="-49.5" y="-27.5" />
+      <point x="609.325" y="483.0" />
+      <point x="463.0" y="483.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="Observer_Pattern.Demo" target="Observer_Pattern.FakeBook">
+      <point x="-82.5" y="-27.5" />
+      <point x="576.325" y="493.0" />
+      <point x="153.0" y="493.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="Observer_Pattern.FakeBook" target="Observer_Pattern.Subject">
+      <point x="102.0" y="-63.5" />
+      <point x="255.0" y="306.0" />
+      <point x="464.75" y="306.0" />
+      <point x="-127.5" y="63.5" />
+    </edge>
+    <edge source="Observer_Pattern.Captain" target="Observer_Pattern.Subject">
+      <point x="-37.875" y="-63.5" />
+      <point x="741.875" y="306.0" />
+      <point x="719.75" y="306.0" />
+      <point x="127.5" y="63.5" />
+    </edge>
+    <edge source="Observer_Pattern.Student" target="Observer_Pattern.Observer">
+      <point x="-34.25" y="-51.5" />
+      <point x="428.75" y="296.0" />
+      <point x="411.7458333333333" y="296.0" />
+      <point x="411.7458333333333" y="129.0" />
+      <point x="478.6833333333333" y="129.0" />
+      <point x="-14.8125" y="39.5" />
+    </edge>
+    <edge source="Observer_Pattern.Subject" target="Observer_Pattern.Observer">
+      <point x="0.0" y="-63.5" />
+      <point x="592.25" y="129.0" />
+      <point x="508.30833333333334" y="129.0" />
+      <point x="14.812500000000057" y="39.5" />
+    </edge>
+    <edge source="Observer_Pattern.Demo" target="Observer_Pattern.Observer">
+      <point x="82.49999999999999" y="-27.5" />
+      <point x="741.325" y="493.0" />
+      <point x="941.75" y="493.0" />
+      <point x="941.75" y="99.0" />
+      <point x="597.1833333333334" y="99.0" />
+      <point x="103.68750000000006" y="39.5" />
+    </edge>
+    <edge source="Observer_Pattern.Demo" target="Observer_Pattern.Captain">
+      <point x="16.5" y="-27.5" />
+      <point x="675.325" y="473.0" />
+      <point x="704.0" y="473.0" />
+      <point x="-75.75" y="63.5" />
+    </edge>
+    <edge source="Observer_Pattern.FakeBook" target="Observer_Pattern.Observer">
+      <point x="-102.0" y="-63.5" />
+      <point x="51.0" y="306.0" />
+      <point x="108.61666666666662" y="306.0" />
+      <point x="108.61666666666662" y="99.0" />
+      <point x="389.8083333333333" y="99.0" />
+      <point x="-103.6875" y="39.5" />
+    </edge>
+    <edge source="Observer_Pattern.Student" target="Observer_Pattern.Subject">
+      <point x="102.75" y="-51.5" />
+      <point x="-25.5" y="63.5" />
+    </edge>
+    <edge source="Observer_Pattern.Captain" target="Observer_Pattern.Observer">
+      <point x="113.62500000000003" y="-63.5" />
+      <point x="893.375" y="306.0" />
+      <point x="869.1208333333333" y="306.0" />
+      <point x="869.1208333333333" y="109.0" />
+      <point x="567.5583333333334" y="109.0" />
+      <point x="74.06250000000006" y="39.5" />
+    </edge>
+    <edge source="Observer_Pattern.Demo" target="Observer_Pattern.Subject">
+      <point x="-16.5" y="-27.5" />
+      <point x="642.325" y="493.0" />
+      <point x="617.75" y="493.0" />
+      <point x="25.5" y="63.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="455.0" y="319.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
